@@ -113,7 +113,7 @@ class MainActivity : ComponentActivity() {
                     return@with
                 }
                 // notificationId is a unique int for each notification that you must define.
-
+                notify(notificationId, builder.build())
             }
         }
         enableEdgeToEdge()
